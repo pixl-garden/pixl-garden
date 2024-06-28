@@ -1,7 +1,13 @@
 {
-  "compilerOptions": {
-    "paths": {
-      "@/*": ["./src/*"]
-    }
-  }
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/components/*": ["src/components/*"],
+            "@/styles/*": ["src/styles/*"],
+            "@/public/*": ["public/*"],
+            "@/pages/*": ["pages/*"]
+        }
+    },
+    "include": ["src/**/*", "pages/**/*", "next-env.d.ts", "public/libraries", "public/sketch.js", "app/not-found.js"],
+    "exclude": ["node_modules"]
 }

@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "alagard";
+    src: url("/fonts/alagard.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Paskowy";
+    src: url("/fonts/Paskowy.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "AutoPilot";
+    src: url("/fonts/autopilot.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
