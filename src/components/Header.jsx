@@ -24,17 +24,19 @@ const Header = () => {
                     </span>
                 </div>
                 <nav>
-                    <ul className="flex space-x-4 text-pg-green font-alagard">
+                    <ul className="flex text-xl space-x-4 text-pg-green font-alagard">
                         {links.map((link) => (
                             <li key={link.href}>
-                                <Link href={link.href}
-                                        className={`${
-                                            router.pathname === link.href
-                                                ? "active hover:text-pg-green-dark"
-                                                : ""
-                                        }`}
-                                    
-                                        >{link.text}</Link>
+                                <Link
+                                    href={link.href}
+                                    className={`${
+                                        router.pathname === link.href
+                                            ? "active hover:text-pg-green-dark"
+                                            : ""
+                                    }`}
+                                >
+                                    {link.text}
+                                </Link>
                             </li>
                         ))}
                     </ul>
