@@ -12,5 +12,32 @@
     z-index: -1; 
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', Arial;
+    overflow: hidden; /* Add this line */
+}
+
+@media (max-width: 640px) {
+    .navbar-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-brand {
+        margin-bottom: 1rem;
+    }
+
+    .navbar-menu-toggle {
+        margin-top: 1rem;
+    }
+}
 
 

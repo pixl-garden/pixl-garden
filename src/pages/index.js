@@ -10,7 +10,7 @@ export default function Home() {
     return (
         <>
             <P5SketchNoSSR />
-            <div className="relative z-10">
+            <div className="relative z-10 overflow-hidden">
                 <Header />
                 <Hero />
             </div>

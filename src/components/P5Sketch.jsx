@@ -26,7 +26,7 @@ const P5Sketch = () => {
                 let tileW, tileH;
                 let speed = 6;
                 let minimumSize = 0;
-                let displayHeightRatio = 1;
+                let displayHeightRatio = 0.9; // Adjusted ratio
                 let canvasHeight, canvasWidth;
                 let backgroundColor = "#739786";
                 let pixelColor = "384a42";
